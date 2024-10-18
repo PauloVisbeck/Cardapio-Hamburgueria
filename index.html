@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hamburgueria dos Devs</title>
+</head>
+
+<body>
+    <div class="container-buttons">
+        <button onclick="mostrar_tudo()">Mostrar Cardápio</button>
+        <button onclick="aplicar_desconto()">Aplicar desconto 10%</button>
+        <button onclick="valor_total()">Valor total Cardápio</button>
+        <button onclick="exibe_veganos()">Mostrar apenas veganos</button>
+    </div>
+    <ul id="cardapio">
+        <!-- Os produtos serão listados aqui -->
+    </ul>
+
+</body>
+
+<script src="./produtos.js"></script>
+<script src="./script.js"></script>
+
+</html>
